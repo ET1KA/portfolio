@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="loader">
+      <div class="spinner"></div>
+    </div>
+
+    <header class="main-header">
+      <div class="container">
+        <div class="logo">ET1KA</div>
+        <nav class="nav">
+          <a href="#accueil">Accueil</a>
+          <a href="#competences">Compétences</a>
+          <a href="#projets">Projets</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <section id="accueil" class="hero">
+      <div class="hero-left">
+        <img src="licence.jpg" alt="Ma photo de profil" />
+      </div>
+      <div class="hero-right">
+        <h1>
+          Bienvenue, je suis <span class="typed-text"></span
+          ><span class="cursor">|</span>
+        </h1>
+        <p>Avec des ptits rien on fait des grands tout !</p>
+        <div class="hero-buttons">
+          <a href="CV.pdf" class="btn" target="_blank">Télécharger mon CV</a>
+        </div>
+      </div>
+    </section>
+    <section id="competences">
+      <h2>Mes Compétences</h2>
+      <div class="competence-grid">
+        <div class="competence">
+          <img src="icons/html5.svg" alt="HTML" />
+        </div>
+        <div class="competence">
+          <img src="icons/css3.svg" alt="CSS" />
+        </div>
+        <div class="competence">
+          <img src="icons/javascript.svg" alt="JavaScript" />
+        </div>
+        <div class="competence">
+          <img src="icons/react.svg" alt="React" />
+        </div>
+        <div class="competence">
+          <img src="icons/tailwindcss.svg" alt="React" />
+        </div>
+        <div class="competence">
+          <img src="icons/nodejs.svg" alt="Node.js" />
+        </div>
+        <div class="competence">
+          <img src="icons/python.svg" alt="Node.js" />
+        </div>
+        <div class="competence">
+          <img src="icons/django.svg" alt="Node.js" />
+        </div>
+      </div>
+    </section>
+
+    <section id="projets">
+      <h2>Mes Projets</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="port1.png" alt="Projet 1" />
+          <h3>Football Manager</h3>
+          <p>
+            Conception et implementation d'un site de gestion de joueurs de
+            football. Le site permet de gérer les joueurs et les contrats
+          </p>
+          <!-- <div class="project-links">
+            <a href="https://lien-vers-demo.com" target="_blank">Démo</a>
+            <a href="https://github.com/utilisateur/projet1" target="_blank"
+              >Code</a
+            >
+          </div> -->
+        </div>
+
+        <div class="project-card">
+          <img src="eray1.png" alt="Projet 2" />
+          <h3>Eray Share</h3>
+          <p>c'est une plateforme d'apprentissage comme Udemy</p>
+          <!-- <div class="project-links">
+            <a href="https://lien-vers-demo.com" target="_blank">Démo</a>
+            <a href="https://github.com/utilisateur/projet2" target="_blank"
+              >Code</a
+            >
+          </div> -->
+        
+        <!-- Ajoute plus de projets ici -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Me Contacter</h2>
+      <p class="contact-subtitle">
+        Vous avez un projet ou une question ? Parlons-en !
+      </p>
+
+      <div class="contact-icons">
+        <a href="mailto:rakotonirinafandresena23@gmail.com" title="Email">
+          <img src="icons/email.svg" alt="Email" />
+        </a>
+        <a href="https://github.com/ET1KA" target="_blank" title="GitHub">
+          <img src="icons/github.svg" alt="GitHub" />
+        </a>
+        <a
+          href="https://linkedin.com/in/tonpseudo"
+          target="_blank"
+          title="LinkedIn"
+        >
+          <img src="icons/linkedin.svg" alt="LinkedIn" />
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 ET1KA</p>
+      <!-- <div class="social-links">
+        <a href="https://github.com/tonpseudo" target="_blank">GitHub</a> |
+        <a href="https://linkedin.com/in/tonprofil" target="_blank">LinkedIn</a>
+      </div> -->
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
